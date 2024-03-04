@@ -39,15 +39,30 @@ Weights obtained in the previous step were applied during the validation process
 The main task was to evaluate and statistically prove the most suitable threshold values of Confidence and Intersection over Union (IoU) for model.
 
 After validating results for different parameters author of this research decided to apply thresholds of 0.25 for confidence and 0.5 for IoU to test in the last step.
-Time 306.04[s], 
+Time[s] 306.04
 Accuracy 0.955
 Precision 0.995
 Recall 0.958
-TNR 0.9
-FPR 0.1
-F1 score 0.976
+True Negative Rate 0.9
+False Positive Rate 0.1
+F1-score 0.976
 
 c) test
+Confusion matrix
+|Class|  Y  |  N  |
+|  Y  | 183 |  7  |
+|  N  |  0  |  10 |
 
-
-5. Summary
+Summary of test results
+Threshold Confidence / IoU 0.25/0.5
+TIME[s] 270.01
+Accuracy 0.965
+True Positive 183
+True Negative 10
+False Positive 0
+False Negative 7
+Precision 1
+Recall 0.963
+True Negative Rate 1
+False Positive Rate 0
+F1-score 0.981
