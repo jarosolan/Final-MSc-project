@@ -48,7 +48,9 @@ False Positive Rate 0.1
 F1-score 0.976
 
 c) test
+
 Confusion matrix
+
 |Class|  Y  |  N  |
 |  Y  | 183 |  7  |
 |  N  |  0  |  10 |
