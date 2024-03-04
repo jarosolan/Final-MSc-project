@@ -27,8 +27,10 @@ batch size (number of images in one batch),
 number of epochs (number of times all of the training data has gone through the network)
 and total numbers of images used in training.
 The batch parameter indicates the batch size used during training, for this study I applied 64. The whole training process was accomplished through external processing via Google Colab, which allows for 12h sessions using GPU. The training was completed in less than 10 hours for a set of 600 images.
+
 ![Image Alt text](https://github.com/petersolan/DL-CNN-Aerial-Images/assets/59766852/52f592a5-ba78-4c3a-aef0-306078159d4a)
-Overall loss during training phase, cropped to 500 iterations
+
+Overall loss during the training phase, cropped to 500 iterations
 
 The final output of this step is a file in dedicated “weights” format containing the results of the training stage, which are previously mentioned weights.
 
