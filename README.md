@@ -52,6 +52,7 @@ c) test
 Confusion matrix
 
 | Class |   Y   |   N   |
+|-------|-------|-------|
 |   Y   |  183  |   7   |
 |   N   |   0   |   10  |
 
