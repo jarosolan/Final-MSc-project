@@ -51,9 +51,9 @@ c) test
 
 Confusion matrix
 
-|Class|  Y  |  N  |
-|  Y  | 183 |  7  |
-|  N  |  0  |  10 |
+| Class |   Y   |   N   |
+|   Y   |  183  |   7   |
+|   N   |   0   |   10  |
 
 Summary of test results
 Threshold Confidence / IoU 0.25/0.5
