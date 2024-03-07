@@ -2,7 +2,7 @@
 This repo explains my Master's dissertation topic:
 DETECTION OF FALLEN TREES ON AERIAL IMAGES FOR URBAN AREAS AFFECTED BY NATURAL DISASTERS
 
-This repository explains how to go from this:
+Briefly speaking, I explain how to go from this:
 
 ![Image Alt text](https://github.com/petersolan/DL-CNN-Aerial-Images/assets/59766852/701994db-dc31-4687-9388-cc0c1b443d80)
 
