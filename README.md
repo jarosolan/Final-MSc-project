@@ -1,6 +1,6 @@
-# Welcome to the DL-CNN-Aerial-Images repository.
-This repo explains my Master's dissertation topic:
-DETECTION OF FALLEN TREES ON AERIAL IMAGES FOR URBAN AREAS AFFECTED BY NATURAL DISASTERS
+# Welcome to the DL CNN repository.
+This repo explains study completed for the purpose of my Master's dissertation topic:
+Detection of fallen trees on aerial images for urban areas affected by natural disasters
 
 Briefly speaking, I explain how to go from this:
 
