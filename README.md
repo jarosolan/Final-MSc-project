@@ -13,14 +13,14 @@ to this:
 Step by step I will explain every step of this CNN application in this Deep Learning model from data acquisition, through data preparation, training, validation and finally testing. I am going also to explain how this DL model could be applied in Data Engineering process of data pipeline improvement.
 
 1. Methodology
-The main object of this research is to detect correctly as many fallen trees as possible using an automated method. CNN is applied to this problem to study the efficiency of an automated solution related to quality and time required to commit such a kind of classification. I used YOLO v3 for model training. Model feasibility was evaluated with bounding boxes prediction parameters, confusion matrix, calculated metrics, and precision-recall gain curve.
+  The main object of this research is to detect correctly as many fallen trees as possible using an automated method. CNN is applied to this problem to study the efficiency of an automated solution related to quality and time required to commit such a kind of classification. I used YOLO v3 for model training. Model feasibility was evaluated with bounding boxes prediction parameters, confusion matrix, calculated metrics, and precision-recall gain curve.
 
 2. Data source
-All the aerial images used for model training are freely available in the following location: https://www.fisheries.noaa.gov/inport/item/65224
+  All the aerial images used for model training are freely available in the following location: https://www.fisheries.noaa.gov/inport/item/65224
 I split data as follows: 60/20/20 (t/v/t)
 
 3. Implementation:
-a) training 
+  a) training 
 For the model training YOLOv3 convolutional neural network I used Darknet/Google Colab.
 For the training stages there are a few parameters to tune such as:
 batch size (number of images in one batch),
