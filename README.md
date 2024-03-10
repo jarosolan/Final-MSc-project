@@ -21,6 +21,7 @@ I split data as follows: 60/20/20 (t/v/t)
 
 3. Implementation:  
 a) training 
+
 For the model training YOLOv3 convolutional neural network I used Darknet/Google Colab.
 For the training stages there are a few parameters to tune such as:
 batch size (number of images in one batch),
@@ -34,11 +35,13 @@ Overall loss during the training phase, cropped to 500 iterations
 
 The final output of this step is a file in dedicated “weights” format containing the results of the training stage, which are previously mentioned weights.
 
-b) validation
+b) validation  
+
 Weights obtained in the previous step were applied during the validation process. 200 labels used for validation stage. This dataset  consists of 190 True Positive labels and 10 empty images (True Negative).
 The main task was to evaluate and statistically prove the most suitable threshold values of Confidence and Intersection over Union (IoU) for model.
 
 After validating results for different parameters author of this research decided to apply thresholds of 0.25 for confidence and 0.5 for IoU to test in the last step.
+
 | Time[s] | 306.04 |
 |--------|--------|
 | Accuracy | 0.955 |
@@ -48,7 +51,7 @@ After validating results for different parameters author of this research decide
 | False Positive Rate | 0.1 |
 | F1-score | 0.976 |
 
-c) test
+c) test  
 
 Confusion matrix
 
