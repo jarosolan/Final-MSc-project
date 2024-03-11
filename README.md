@@ -1,6 +1,6 @@
 # Welcome to the DL CNN repository.
-This repo explains study completed for the purpose of my Master's dissertation topic:
-Detection of fallen trees on aerial images for urban areas affected by natural disasters
+This repo explains study completed for the purpose of my Master's dissertation topic:  
+Detection of fallen trees on aerial images for urban areas affected by natural disasters.
 
 Briefly speaking, I explain how to go from this:
 
@@ -10,7 +10,7 @@ to this:
 
 ![Image Alt text](https://github.com/petersolan/DL-CNN-Aerial-Images/assets/59766852/fac1fca2-6094-466f-88dc-4ba0f90cd4f6)
 
-Step by step I will explain every step of this CNN application in this Deep Learning model from data acquisition, through data preparation, training, validation and finally testing. I am going also to explain how this DL model could be applied in Data Engineering process of data pipeline improvement.
+I explain every step of this CNN application in this Deep Learning model, starting from data acquisition, through data preparation, training, validation and finally testing. I am going to explain how this DL model could be applied in Data Engineering process of data pipeline improvement.
 
 1. Methodology  
 The main object of this research is to detect correctly as many fallen trees as possible using an automated method. CNN is applied to this problem to study the efficiency of an automated solution related to quality and time required to commit such a kind of classification. I used YOLO v3 for model training. Model feasibility was evaluated with bounding boxes prediction parameters, confusion matrix, calculated metrics, and precision-recall gain curve.
