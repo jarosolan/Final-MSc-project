@@ -15,7 +15,7 @@ net = cv2.dnn.readNet(modelConfiguration, modelWeights)
 classes = ["Tree"]
 
 # Images path
-images_path = glob.glob(r"C:\Users\Jared\Documents\Ida\valid_b\*.jpg")
+images_path = glob.glob(r"C:\Users\Peter\Documents\Ida\valid_b\*.jpg")
 layer_names = net.getLayerNames()
 output_layers = [layer_names[i[0] - 1] for i in net.getUnconnectedOutLayers()]
 #colors = np.random.uniform(0, 255, size=(len(classes), 3))
